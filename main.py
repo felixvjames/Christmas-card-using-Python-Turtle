@@ -9,11 +9,11 @@ myPen.speed(10)
 window = turtle.Screen()
 window.bgcolor("#00008C")
 
-#let's draw the Moon
+#To draw the Moon
 draw_circle(myPen, "white", 120,80,50)
 draw_circle(myPen, "#00008C", 100,80,50)
 
-#Let's add the Stars
+#To add the Stars
 numberOfStars = randint(6,12)
 for star in range(0,numberOfStars):
   x = randint(-180,180)
@@ -21,9 +21,9 @@ for star in range(0,numberOfStars):
   size = randint(5,20)
   draw_star(myPen, "white", x, y, size)
 
-#Add message to the card
+#To add message to the card
 myPen.penup()
-myPen.color("yellow")
+myPen.color("red")
 myPen.goto(-110, -180)
-myPen.write("Season's Greetings", None, None, "24pt bold")
+myPen.write("Merry Christmas", None, None, "24pt bold")
 myPen.hideturtle()  
