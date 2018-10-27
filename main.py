@@ -27,3 +27,4 @@ myPen.color("red")
 myPen.goto(-110, -180)
 myPen.write("Merry Christmas", None, None, "24pt bold")
 myPen.hideturtle()  
+#Program over
